@@ -1,0 +1,118 @@
+.scheme {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#4f1c4c, #bda9b7, #4f1c4c);
+}
+.scheme .heading {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  top: 0;
+  padding: 10px 0;
+  text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.scheme-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scheme-left {
+  padding: 20px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scheme-chart {
+  padding: 20px;
+  width: 800px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scheme-box {
+  width: 250px;
+  height: 120px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  padding: 5px 20px;
+  background-color: #bda9b7;
+  background: linear-gradient(#bda9b7, #4f1c4c);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+  z-index: 9;
+}
+.scheme-box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -10px;
+  color: #3e4095;
+}
+.scheme-box div span {
+  color: white;
+}
+.box-1 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.box-2 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.box-3 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.box-4 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.circle {
+  position: absolute;
+  border: 2px solid black;
+  height: 420px;
+  width: 600px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scheme-right {
+  padding: 10px;
+  padding-left: 20px;
+  height: 600px;
+  /* background-color: #b3c1d0; */
+}
+.scheme-right h1 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 10px 15px 0px 15px;
+}
+.scheme-right p {
+  font-weight: 300;
+  padding: 0 15px 15px 15px;
+}
+.scheme-text {
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(#bda9b7, #4f1c4c);
+}
