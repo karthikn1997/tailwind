@@ -1,7 +1,7 @@
 .gallery {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(#4f1c4c, #bda9b7, #4f1c4c);
+  background: #3E4095;
 }
 .gallery h1{
   text-shadow: 2px 2px 0px rgba(255,255,255,0.7);
@@ -20,11 +20,11 @@
   justify-content: center;
   width: 300px;
   height: 200px;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 5px;
   overflow: hidden;
-  margin-bottom: 10px;
-  box-shadow: 4px 4px 2px rgba(0,0,0,0.5);
+  margin-bottom: 20px;
+  /* box-shadow: 4px 4px 2px rgba(0,0,0,0.5); */
 }
 .imgid img {
   width: 100%;
@@ -33,7 +33,7 @@
   object-fit: cover;
   border-radius: 5px;
   transition: transform 0.4s;
-  border: 1px solid white;
+  border: 5px solid white;
 }
 .imgid img:hover {
   transform: scale(1.06);
@@ -45,10 +45,10 @@
   justify-content: center;
 }
 .filter button {
-  padding: 5px 20px;
-  background-color: #bda9b7;
+  padding: 3px 20px;
   width: 200px;
   box-shadow: 4px 4px 2px rgba(0,0,0,0.5);
+  background-color: white;
 }
 .all-btn {
   border-top-left-radius: 10px;
@@ -69,7 +69,7 @@
 }
 .lg-react-element {
   column-count: 4;
-  gap: 10px;
+  gap: 20px;
 }
 @media screen and (max-width: 1300px) {
   .lg-react-element {

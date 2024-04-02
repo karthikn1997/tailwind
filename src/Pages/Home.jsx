@@ -8,10 +8,12 @@ import Gallery from './Gallery'
 import FAQ from './FAQ'
 import Contact from './Contact'
 import Footer from './Footer'
+import Header from './Header'
 
 function Home() {
   return (
     <>
+    <Header/>
     <Navbar/>
     <Hero/>
     <About/>

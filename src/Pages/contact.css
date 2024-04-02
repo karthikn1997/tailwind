@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(#4f1c4c, #bda9b7);
+  background-color: #d8d8d8;
 }
 
 .contact-us-container h2 {
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
+  border: 5px solid #3E4095;
   height: 480px;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -42,7 +42,7 @@
   object-fit: cover;
   right: 0;
   position: absolute;
-  border: 1px solid white;
+  border: 1px solid #3E4095;
 }
 .contact-right {
   width: 60%;

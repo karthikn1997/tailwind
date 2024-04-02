@@ -4,6 +4,10 @@ import { BsPersonFillCheck } from "react-icons/bs";
 import { GiMoneyStack } from "react-icons/gi";
 import { GiTakeMyMoney } from "react-icons/gi";
 import { AiFillUnlock } from "react-icons/ai";
+import { TbHexagonNumber1 } from "react-icons/tb";
+import { TbHexagonNumber2 } from "react-icons/tb";
+import { TbHexagonNumber3 } from "react-icons/tb";
+import { TbHexagonNumber4 } from "react-icons/tb";
 
 function Scheme() {
   return (
@@ -13,7 +17,26 @@ function Scheme() {
       </div>
 
       <div className="scheme-main">
-        <div className="scheme-left">
+        <div className="scheme-left ">
+          <div className="steps">
+            <h1 className="text-black font-bold">How <span className="text-white">Investment Works</span> In Our Scheme</h1>
+            <div className="step">
+              <TbHexagonNumber1 className="one w-20 h-20 z-10 bg-[#057d45] text-white rounded-full"/>
+              <h2 className="create">Create Account</h2>
+            </div>
+            <div className="step">
+              <TbHexagonNumber2 className="two w-20 h-20 z-10 bg-white text-[#3E4095] rounded-full" />
+              <h2 className="choose">Choose Plan</h2>
+            </div>
+            <div className="step">
+              <TbHexagonNumber3 className="three w-20 h-20 z-10 bg-[#057d45] text-white rounded-full"/>
+              <h2 className="invest">Investment</h2>
+            </div>
+            <div className="step">
+              <TbHexagonNumber4 className="four w-20 h-20 z-10 bg-white text-[#3E4095] rounded-full"/>
+              <h2 className="get">Get Profit</h2>
+            </div>
+          </div>
           <div className="scheme-chart">
             <div className="scheme-box box-1">
               <div>
@@ -40,12 +63,18 @@ function Scheme() {
               </div>
             </div>
             <div className="circle">
-              <img src="src/assets/logos/agr logo 2.png" alt="" className=" h-48"/>
+              <img
+                src="src/assets/logos/agr logo 2.png"
+                alt=""
+                className=" h-32 opacity-30"
+              />
             </div>
           </div>
+          
         </div>
+        
 
-        <div className="scheme-right">
+        {/* <div className="scheme-right">
           <div className="scheme-text">
             <h1>Join As Member:</h1>
             <p>
@@ -77,8 +106,9 @@ function Scheme() {
               offers waiting to be unlocked.our AGR platform ensures that your hard work is duly recognized and rewarded.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
+      <div className="scheme-bottom w-full h-60 m-0 flex"></div>
     </div>
   );
 }

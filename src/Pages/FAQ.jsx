@@ -41,10 +41,10 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq-container">
-      <h1>Frequantly Ask Questions</h1>
+    <div className="faq-container flex justify-center ">
+      <h1 className="font-bold">Frequently <span className="text-[#057d45]">Ask Questions</span> </h1>
       
-      <div className="faq-content">
+      <div className="faq-content ">
       <h2>How can we help you?</h2>
         {faqData.map((item, index) => (
           <div
@@ -67,6 +67,9 @@ const FAQ = () => {
             )}
           </div>
         ))}
+      </div>
+      <div className="faq-image">
+        <img src="src/assets/faq1.jpg" alt="" className=""/>
       </div>
     </div>
   );

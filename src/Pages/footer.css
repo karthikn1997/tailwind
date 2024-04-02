@@ -1,7 +1,7 @@
 .footer{
     width: 100%;
     height: 40vh;
-    background-color: #2e112c;
+    background-color: #3E4095;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +44,9 @@
 }
 .location{
     display: flex;
+}
+.footer span{
+    color: #26D48C;
 }
 /* .footer-left{
     width: 30%;
